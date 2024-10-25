@@ -1,0 +1,595 @@
+[
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "US Dollar",
+      "code": "USD",
+      "symbol": "$",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "British Pound",
+      "code": "GBP",
+      "symbol": "£",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Euro",
+      "code": "EUR",
+      "symbol": "€",
+      "precision": 2,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 1
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "South African Rand",
+      "code": "ZAR",
+      "symbol": "R",
+      "precision": 2,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Danish Krone",
+      "code": "DKK",
+      "symbol": "kr",
+      "precision": 2,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 1
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Israeli Shekel",
+      "code": "ILS",
+      "symbol": "NIS ",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Swedish Krona",
+      "code": "SEK",
+      "symbol": "kr",
+      "precision": 2,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 1
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Kenyan Shilling",
+      "code": "KES",
+      "symbol": "KSh ",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Kuwaiti Dinar",
+      "code": "KWD",
+      "symbol": "KWD ",
+      "precision": 3,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Canadian Dollar",
+      "code": "CAD",
+      "symbol": "C$",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Philippine Peso",
+      "code": "PHP",
+      "symbol": "P ",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Nepali Rupee",
+      "code": "NPR",
+      "symbol": "रू",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Indian Rupee",
+      "code": "INR",
+      "symbol": "₹",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Australian Dollar",
+      "code": "AUD",
+      "symbol": "$",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Singapore Dollar",
+      "code": "SGD",
+      "symbol": "S$",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Norske Kroner",
+      "code": "NOK",
+      "symbol": "kr",
+      "precision": 2,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 1
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "New Zealand Dollar",
+      "code": "NZD",
+      "symbol": "$",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Vietnamese Dong",
+      "code": "VND",
+      "symbol": "₫",
+      "precision": 0,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Swiss Franc",
+      "code": "CHF",
+      "symbol": "Fr.",
+      "precision": 2,
+      "thousand_separator": "",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Guatemalan Quetzal",
+      "code": "GTQ",
+      "symbol": "Q",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Malaysian Ringgit",
+      "code": "MYR",
+      "symbol": "RM",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Brazilian Real",
+      "code": "BRL",
+      "symbol": "R$",
+      "precision": 2,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Thai Baht",
+      "code": "THB",
+      "symbol": "฿",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Nigerian Naira",
+      "code": "NGN",
+      "symbol": "₦",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Argentine Peso",
+      "code": "ARS",
+      "symbol": "$",
+      "precision": 2,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Bangladeshi Taka",
+      "code": "BDT",
+      "symbol": "Tk",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "United Arab Emirates Dirham",
+      "code": "AED",
+      "symbol": "DH ",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Hong Kong Dollar",
+      "code": "HKD",
+      "symbol": "HK$",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Indonesian Rupiah",
+      "code": "IDR",
+      "symbol": "Rp",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Mexican Peso",
+      "code": "MXN",
+      "symbol": "$",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Egyptian Pound",
+      "code": "EGP",
+      "symbol": "E£",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Colombian Peso",
+      "code": "COP",
+      "symbol": "$",
+      "precision": 2,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model: 0}}, {"model": "core.currecy", "fields": {"name": "Aruban Florin", "code": "AWG", "symbol": "Afl. ", "precision": 2, "thousand_separator": " ", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Turkish Lira", "code": "TRY", "symbol": "TL ", "precision": 2, "thousand_separator": ".", "decimal_separator": ",", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Romanian New Leu", "code": "RON", "symbol": "RON", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Croatian Kuna", "code": "HRK", "symbol": "kn", "precision": 2, "thousand_separator": ".", "decimal_separator": ",", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Saudi Riyal", "code": "SAR", "symbol": "\u200eS\u0650AR", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Japanese Yen", "code": "JPY", "symbol": "\u00a5", "precision": 0, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Maldivian Rufiyaa", "code": "MVR", "symbol": "Rf", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Costa Rican Col\u00f3n", "code": "CRC", "symbol": "\u20a1", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Pakistani Rupee", "code": "PKR", "symbol": "Rs ", "precision": 0, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Polish Zloty", "code": "PLN", "symbol": "z\u0142", "precision": 2, "thousand_separator": " ", "decimal_separator": ",", "swap_currency_symbol": 1}}, {"model": "core.currecy", "fields": {"name": "Sri Lankan Rupee", "code": "LKR", "symbol": "LKR", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 1}}, {"model": "core.currecy", "fields": {"name": "Czech Koruna", "code": "CZK", "symbol": "K\u010d", "precision": 2, "thousand_separator": " ", "decimal_separator": ",", "swap_currency_symbol": 1}}, {"model": "core.currecy", "fields": {"name": "Uruguayan Peso", "code": "UYU", "symbol": "$", "precision": 2, "thousand_separator": ".", "decimal_separator": ",", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Namibian Dollar", "code": "NAD", "symbol": "$", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Tunisian Dinar", "code": "TND", "symbol": "\u200e\u062f.\u062a", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Russian Ruble", "code": "RUB", "symbol": "\u20bd", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Mozambican Metical", "code": "MZN", "symbol": "MT", "precision": 2, "thousand_separator": ".", "decimal_separator": ",", "swap_currency_symbol": 1}}, {"model": "core.currecy", "fields": {"name": "Omani Rial", "code": "OMR", "symbol": "\u0631.\u0639.", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Ukrainian Hryvnia", "code": "UAH", "symbol": "\u20b4", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Macanese Pataca", "code": "MOP", "symbol": "MOP$", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Taiwan New Dollar", "code": "TWD", "symbol": "NT$", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Dominican Peso", "code": "DOP", "symbol": "RD$", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Chilean Peso", "code": "CLP", "symbol": "$", "precision": 2, "thousand_separator": ".", "decimal_separator": ",", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Serbian Dinar", "code": "RSD", "symbol": "RSD", "precision": 2, "thousand_separator": ".", "decimal_separator": ",", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Kyrgyzstani som", "code": "KGS", "symbol": "\u0421\u0332 ", "precision": 2, "thousand_separator": ".", "decimal_separator": ",", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Iraqi Dinar", "code": "IQD", "symbol": "\u0639.\u062f", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Peruvian Soles", "code": "PEN", "symbol": "S/", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Moroccan Dirham", "code": "MAD", "symbol": "DH", "precision": 2, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Jamaican Dollar", "code": "JMD", "symbol": "$", "precision": 0, "thousand_separator": ",", "decimal_separator": ".", "swap_currency_symbol": 0}}, {"model": "core.currecy", "fields": {"name": "Macedonian Denar", "code": "MKD", "symbol": "\u0434\u0435\u043d", "precision": 0, "thousand_separator": ".", "decimal_separator": ",", "swap_currency_symbol": 1}}]r": ",",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Namibian Dollar",
+      "code": "NAD",
+      "symbol": "$",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Tunisian Dinar",
+      "code": "TND",
+      "symbol": "\u200eد.ت",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Russian Ruble",
+      "code": "RUB",
+      "symbol": "₽",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Mozambican Metical",
+      "code": "MZN",
+      "symbol": "MT",
+      "precision": 2,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 1
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Omani Rial",
+      "code": "OMR",
+      "symbol": "ر.ع.",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Ukrainian Hryvnia",
+      "code": "UAH",
+      "symbol": "₴",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Macanese Pataca",
+      "code": "MOP",
+      "symbol": "MOP$",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Taiwan New Dollar",
+      "code": "TWD",
+      "symbol": "NT$",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Dominican Peso",
+      "code": "DOP",
+      "symbol": "RD$",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Chilean Peso",
+      "code": "CLP",
+      "symbol": "$",
+      "precision": 2,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Serbian Dinar",
+      "code": "RSD",
+      "symbol": "RSD",
+      "precision": 2,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Kyrgyzstani som",
+      "code": "KGS",
+      "symbol": "С̲ ",
+      "precision": 2,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Iraqi Dinar",
+      "code": "IQD",
+      "symbol": "ع.د",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Peruvian Soles",
+      "code": "PEN",
+      "symbol": "S/",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Moroccan Dirham",
+      "code": "MAD",
+      "symbol": "DH",
+      "precision": 2,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Jamaican Dollar",
+      "code": "JMD",
+      "symbol": "$",
+      "precision": 0,
+      "thousand_separator": ",",
+      "decimal_separator": ".",
+      "swap_currency_symbol": 0
+    }
+  },
+  {
+    "model": "core.currency",
+    "fields": {
+      "name": "Macedonian Denar",
+      "code": "MKD",
+      "symbol": "ден",
+      "precision": 0,
+      "thousand_separator": ".",
+      "decimal_separator": ",",
+      "swap_currency_symbol": 1
+    }
+  }
+]
