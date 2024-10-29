@@ -1,0 +1,248 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="mb-3">
+    <h1 class="h3 d-inline align-middle">Orders</h1>
+</div>
+<div class="card">
+    <div class="col-sm-12">
+        <div class="card-widget-separator-wrapper">
+          <div class="card-body card-widget-separator">
+            <div class="row gy-4 gy-sm-1">
+              <div class="col-sm-6 col-lg-3">
+                <div class="d-flex justify-content-between align-items-center card-widget-1 border-end pb-4 pb-sm-0">
+                  <div>
+                    <h4 class="mb-0">24</h4>
+                    <p class="mb-0">Clients</p>
+                  </div>
+                  <div class="avatar me-sm-6">
+                    <span class="avatar-initial rounded bg-label-secondary text-heading">
+                      <i class="bx bx-user bx-26px"></i>
+                    </span>
+                  </div>
+                </div>
+                <hr class="d-none d-sm-block d-lg-none me-6">
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="d-flex justify-content-between align-items-center card-widget-2 border-end pb-4 pb-sm-0">
+                  <div>
+                    <h4 class="mb-0">165</h4>
+                    <p class="mb-0">Invoices</p>
+                  </div>
+                  <div class="avatar me-lg-6">
+                    <span class="avatar-initial rounded bg-label-secondary text-heading">
+                      <i class="bx bx-file bx-26px"></i>
+                    </span>
+                  </div>
+                </div>
+                <hr class="d-none d-sm-block d-lg-none">
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="d-flex justify-content-between align-items-center border-end pb-4 pb-sm-0 card-widget-3">
+                  <div>
+                    <h4 class="mb-0">$2.46k</h4>
+                    <p class="mb-0">Paid</p>
+                  </div>
+                  <div class="avatar me-sm-6">
+                    <span class="avatar-initial rounded bg-label-secondary text-heading">
+                      <i class="bx bx-check-double bx-26px"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <h4 class="mb-0">$876</h4>
+                    <p class="mb-0">Unpaid</p>
+                  </div>
+                  <div class="avatar">
+                    <span class="avatar-initial rounded bg-label-secondary text-heading">
+                      <i class="bx bx-error-circle bx-26px"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="card">
+    <div class="card-header pb-0">
+        <div class="card-actions float-end">
+            <div class="row">
+                <div class="dt-action-buttons text-xl-end text-lg-start text-md-end text-start">
+                    <div class="dt-buttons btn-group flex-wrap">
+                        <button class="btn btn-outline-success"><i class="bx bx-plus"></i>Create Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h5 class="card-title mb-0">Orders</h5>
+        </div>
+    </div>
+    <div class="card-body">
+        <div id="datatables-orders_wrapper" class="dataTables_wrapper dt-bootstrap5 no-footer">
+            <div class="row dt-row">
+                
+                
+                <div class="col-sm-12">
+                    <table id="datatables-orders"
+                        class="table table-responsive table-striped dataTable no-footer dtr-inline" width="100%"
+                        aria-describedby="datatables-orders_info" style="width: 100%;">
+                        <thead>
+                            <tr>
+                                <th class="sorting sorting_asc" tabindex="0" aria-controls="datatables-orders"
+                                    rowspan="1" colspan="1" style="width: 50px;" aria-sort="ascending"
+                                    aria-label="#: activate to sort column descending">#</th>
+                                <th class="sorting" tabindex="0" aria-controls="datatables-orders" rowspan="1"
+                                    colspan="1" style="width: 134px;"
+                                    aria-label="Billing Name: activate to sort column ascending">Billing Name</th>
+                                <th class="sorting" tabindex="0" aria-controls="datatables-orders" rowspan="1"
+                                    colspan="1" style="width: 98px;"
+                                    aria-label="Date: activate to sort column ascending">Date</th>
+                                <th class="sorting" tabindex="0" aria-controls="datatables-orders" rowspan="1"
+                                    colspan="1" style="width: 67px;"
+                                    aria-label="Total: activate to sort column ascending">Total</th>
+                                <th class="sorting" tabindex="0" aria-controls="datatables-orders" rowspan="1"
+                                    colspan="1" style="width: 154px;"
+                                    aria-label="Payment Status: activate to sort column ascending">Payment Status</th>
+                                <th class="sorting" tabindex="0" aria-controls="datatables-orders" rowspan="1"
+                                    colspan="1" style="width: 165px;"
+                                    aria-label="Payment Method: activate to sort column ascending">Payment Method</th>
+                                <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 124px;"
+                                    aria-label="Actions">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="odd">
+                                <td class="dtr-control sorting_1" tabindex="0"><strong>#0001</strong></td>
+                                <td>Brian Smith</td>
+                                <td>2023-12-04</td>
+                                <td>$353.00</td>
+                                <td><span class="badge badge-success-light">Paid</span></td>
+                                <td><i class="fab fa-cc-mastercard me-1"></i> Mastercard</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary btn-sm">View</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                </td>
+                            </tr>
+                            <tr class="even">
+                                <td class="dtr-control sorting_1" tabindex="0"><strong>#0002</strong></td>
+                                <td>Patrick Babcock</td>
+                                <td>2023-12-05</td>
+                                <td><s>$939.00</s></td>
+                                <td><span class="badge badge-danger-light">Chargeback</span></td>
+                                <td><i class="fab fa-cc-visa me-1"></i> Visa</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary btn-sm">View</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                </td>
+                            </tr>
+                            <tr class="odd">
+                                <td class="dtr-control sorting_1" tabindex="0"><strong>#0003</strong></td>
+                                <td>Ronald Woods</td>
+                                <td>2023-12-12</td>
+                                <td><s>$965.00</s></td>
+                                <td><span class="badge badge-warning-light">Refunded</span></td>
+                                <td><i class="fab fa-cc-visa me-1"></i> Visa</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary btn-sm">View</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                </td>
+                            </tr>
+                            <tr class="even">
+                                <td class="dtr-control sorting_1" tabindex="0"><strong>#0004</strong></td>
+                                <td>Morris Evans</td>
+                                <td>2023-12-21</td>
+                                <td>$247.00</td>
+                                <td><span class="badge badge-success-light">Paid</span></td>
+                                <td><i class="fab fa-cc-mastercard me-1"></i> Mastercard</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary btn-sm">View</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                </td>
+                            </tr>
+                            <tr class="odd">
+                                <td class="dtr-control sorting_1" tabindex="0"><strong>#0005</strong></td>
+                                <td>Kirk Batts</td>
+                                <td>2022-01-05</td>
+                                <td>$187.00</td>
+                                <td><span class="badge badge-success-light">Paid</span></td>
+                                <td><i class="fab fa-cc-visa me-1"></i> Visa</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary btn-sm">View</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                </td>
+                            </tr>
+                            <tr class="even">
+                                <td class="dtr-control sorting_1" tabindex="0"><strong>#0006</strong></td>
+                                <td>Mark Lebron</td>
+                                <td>2022-01-11</td>
+                                <td>$784.00</td>
+                                <td><span class="badge badge-success-light">Paid</span></td>
+                                <td><i class="fab fa-cc-mastercard me-1"></i> Mastercard</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary btn-sm">View</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                </td>
+                            </tr>
+                            <tr class="odd">
+                                <td class="dtr-control sorting_1" tabindex="0"><strong>#0007</strong></td>
+                                <td>Waylon Atkinson</td>
+                                <td>2022-02-01</td>
+                                <td>$258.00</td>
+                                <td><span class="badge badge-success-light">Paid</span></td>
+                                <td><i class="fab fa-cc-mastercard me-1"></i> Mastercard</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary btn-sm">View</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                </td>
+                            </tr>
+                            <tr class="even">
+                                <td class="dtr-control sorting_1" tabindex="0"><strong>#0008</strong></td>
+                                <td>David Larose</td>
+                                <td>2022-02-26</td>
+                                <td><s>$933.00</s></td>
+                                <td><span class="badge badge-danger-light">Chargeback</span></td>
+                                <td><i class="fab fa-cc-visa me-1"></i> Visa</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary btn-sm">View</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                </td>
+                            </tr>
+                            <tr class="odd">
+                                <td class="dtr-control sorting_1" tabindex="0"><strong>#0009</strong></td>
+                                <td>Shawn Rapp</td>
+                                <td>2022-03-09</td>
+                                <td>$928.00</td>
+                                <td><span class="badge badge-success-light">Paid</span></td>
+                                <td><i class="fab fa-cc-visa me-1"></i> Visa</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary btn-sm">View</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                </td>
+                            </tr>
+                            <tr class="even">
+                                <td class="dtr-control sorting_1" tabindex="0"><strong>#0010</strong></td>
+                                <td>Chad Smith</td>
+                                <td>2022-03-17</td>
+                                <td><s>$715.00</s></td>
+                                <td><span class="badge badge-warning-light">Refunded</span></td>
+                                <td><i class="fab fa-cc-visa me-1"></i> Visa</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary btn-sm">View</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,8 +1,10 @@
 from .base_models import BaseModel
-from django.db import models
-from django.utils import timezone
 
 from core import utils
+
+from django.db import models
+from django.utils import timezone
+from django.urls import reverse_lazy
 
 
 class Country(BaseModel):
@@ -64,6 +66,12 @@ class ExpenseCategory(BaseModel):
     class Meta:
         verbose_name = 'ExpenseCategory'
         verbose_name_plural = 'ExpenseCategories'
+        
+    def get_absolute_url(self):
+        return reverse_lazy('expenses_categories-update', kwargs={'pk': self.pk})
+
+    def get_delete_url(self):
+        return reverse_lazy('expenses_categories-delete', kwargs={"pk": self.pk})
 
 
 class Unit(BaseModel):
