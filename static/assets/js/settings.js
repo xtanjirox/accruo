@@ -889,7 +889,7 @@
           , h = (t, e) => {
             if ("theme" === t) {
                 const t = "dark" === e ? "dark" : "light";
-                document.querySelector(".js-stylesheet").setAttribute("href", "static/assets/css/".concat(t, ".css")),
+                document.querySelector(".js-stylesheet").setAttribute("href", "/static/assets/css/".concat(t, ".css")),
                 a && a !== t && window.location.replace(window.location.pathname),
                 a = t
             }

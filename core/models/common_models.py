@@ -164,6 +164,12 @@ class Expense(BaseModel):
         verbose_name = 'Expense'
         verbose_name_plural = 'Expenses'
         
+    def get_absolute_url(self):
+        return reverse_lazy('expenses-update', kwargs={'pk': self.pk})
+
+    def get_delete_url(self):
+        return reverse_lazy('expenses-delete', kwargs={"pk": self.pk})
+        
         
     def save(self, *args, **kwargs):
         if not self.unique_hash:
@@ -183,13 +189,19 @@ class RevenueCategory(BaseModel):
         verbose_name = 'RevenueCategory'
         verbose_name_plural = 'RevenueCategories'
         
+    def get_absolute_url(self):
+        return reverse_lazy('revenues_categories-update', kwargs={'pk': self.pk})
+
+    def get_delete_url(self):
+        return reverse_lazy('revenues_categories-delete', kwargs={"pk": self.pk})
+        
         
 class Revenue(BaseModel):
     unique_hash = models.CharField(max_length=100, blank=True, null=True)
     revenue_date = models.DateTimeField(default=timezone.now)
     amount = models.FloatField(default=0)
     notes = models.CharField(max_length=100, null=True, blank=True)
-    expense_category = models.ForeignKey(RevenueCategory, on_delete=models.CASCADE)
+    revenue_category = models.ForeignKey(RevenueCategory, on_delete=models.CASCADE)
     company = models.ForeignKey(Company, on_delete=models.CASCADE)
     # customer = models.ForeignKey('users.Customer', on_delete=models.CASCADE)
     # creator = models.ForeignKey('users.User', on_delete=models.CASCADE)
@@ -207,4 +219,10 @@ class Revenue(BaseModel):
         if not self.unique_hash:
             self.unique_hash = utils.generate_unique_hash()
         super(Revenue, self).save(*args, **kwargs)
+        
+    def get_absolute_url(self):
+        return reverse_lazy('revenues-update', kwargs={'pk': self.pk})
+
+    def get_delete_url(self):
+        return reverse_lazy('revenues-delete', kwargs={"pk": self.pk})
         
