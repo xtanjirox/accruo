@@ -2,8 +2,10 @@
 
 {% block content %}
 {% load django_tables2%}
+{% load static %}
+
 <div class="mb-3">
-    <h1 class="h3 d-inline align-middle">Orders</h1>
+    <h1 class="h3 d-inline align-middle">{{ segment }}</h1>
 </div>
 <div class="card">
     <div class="col-sm-12">
@@ -97,3 +99,19 @@
     </div>
 </div>
 {% endblock content %}
+
+{% block js %}
+<script src="{% static 'assets/js/datatables.js' %}"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			// Datatables Orders
+			$("#datatables-orders").DataTable({
+				responsive: true,
+				aoColumnDefs: [{
+					bSortable: false,
+					aTargets: [-1]
+				}]
+			});
+		});
+	</script>
+{% endblock js %}

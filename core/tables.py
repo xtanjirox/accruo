@@ -22,3 +22,32 @@ class ExpensesCategoriesTable(tables.Table):
         model = models.ExpenseCategory
         attrs = DEFAULT_TABLE_ATTRS
         fields = ('id', 'name', 'description', 'actions')
+        
+
+class RevenuesCategoriesTable(tables.Table):
+    actions = tables.TemplateColumn(ACTIONS_BUTTONS_TEMPLATE)
+
+    class Meta:
+        model = models.RevenueCategory
+        attrs = DEFAULT_TABLE_ATTRS
+        fields = ('id', 'name', 'description', 'actions')
+        
+
+class ExpensesTable(tables.Table):
+    actions = tables.TemplateColumn(ACTIONS_BUTTONS_TEMPLATE)
+
+    class Meta:
+        model = models.Expense
+        attrs = DEFAULT_TABLE_ATTRS
+        fields = ('id', 'expense_date', 'amount', 'expense_category', 
+                  'company', 'base_amount', 'payment_method', 'actions')
+        
+        
+class RevenuesTable(tables.Table):
+    actions = tables.TemplateColumn(ACTIONS_BUTTONS_TEMPLATE)
+
+    class Meta:
+        model = models.Revenue
+        attrs = DEFAULT_TABLE_ATTRS
+        fields = ('id', 'revenue_date', 'amount', 'revenue_category', 
+                  'company', 'base_amount', 'payment_method', 'actions')
